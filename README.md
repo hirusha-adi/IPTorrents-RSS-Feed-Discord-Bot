@@ -5,6 +5,11 @@ Run these commands:
 ```
 git clone https://github.com/hirusha-adi/IPTorrents-RSS-Feed-Discord-Bot
 cd IPTorrents-RSS-Feed-Discord-Bots
+cd iptrss/database
+nano main.json
+  " Enter your bot token in the token filed inside quotations "
+cd ..
+cd ..
 python3 main.py
 ```
 
