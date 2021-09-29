@@ -36,7 +36,7 @@ async def startrss(ctx):
     LAST_MOVIE_FILE = "iptrss/movieinfo/lastmovie.txt"
     FEED_URL = "https://iptorrents.com/t.rss?u=315854;tp=07d2b12c3465a70e02608702b3f65c3a;48;7;20;38;100;101;89;68;62;6;90;87;54;22;99;4;5;66;65;79;23;55;25;26;82;24;83;download"
     
-    ctx.send(f"+ Starting to send latest updates to **{ctx.channel.name} | {ctx.channel.id}**")
+    await ctx.send(f"+ Starting to send latest updates to **{ctx.channel.name} | {ctx.channel.id}**")
 
     while True:
         data = requests.get(FEED_URL).content
