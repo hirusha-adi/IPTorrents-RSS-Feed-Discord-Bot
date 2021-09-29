@@ -5,6 +5,7 @@ Run these commands:
 ```
 git clone https://github.com/hirusha-adi/IPTorrents-RSS-Feed-Discord-Bot
 cd IPTorrents-RSS-Feed-Discord-Bots
+pip3 install -r requirements.txt
 cd iptrss/database
 nano main.json
   " Enter your bot token in the token filed inside quotations "
